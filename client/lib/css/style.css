@@ -1,0 +1,44 @@
+
+.navContainer{
+    width:100%;
+    height:60px;
+    background-color: black;
+    display:flex;
+    justify-content:center;
+}
+body {
+    margin: 0;
+}
+.noma {
+    margin: 0;
+}
+
+.bloc{
+    background-color: transparent;
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    margin:0;
+  
+padding :0px;
+letter-spacing:2px;
+
+}
+
+nav ul li {
+    display: inline;
+   padding:15px;
+    border-right: 1px solid white;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
